@@ -433,23 +433,116 @@ nav>ul>li>a {
     color: #49546e;
 }
 
-.testimony-card>img{
+.testimony-card>img {
     width: 40%;
     padding: 10% 2.5%;
     border-bottom: 1px solid #999;
 }
 
-.testimony-card>h3{
+.testimony-card>h3 {
     margin: 5% 0;
     font-size: 25px;
     font-weight: 500;
 }
 
-.testimony-card>p{
+.testimony-card>p {
     color: #49546e;
 }
 
-#main-testimony-card{
+#main-testimony-card {
     background-color: white;
     box-shadow: 0px 0px 50px #d3d3d3;
+}
+
+.answer {
+    display: flex;
+    padding: 10%;
+    gap: 5%;
+    font-size: 18px;
+    align-items: center;
+}
+
+/* .answer-img-div{
+    width: 55%;
+} */
+
+.answer-img-div>img {
+    max-width: 100%;
+}
+
+.answer-img-stats {
+    display: flex;
+    color: white;
+    background-color: #0e0a47;
+    width: max-content;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.request-div,
+.satisfaction-div {
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.request-div>strong,
+.satisfaction-div>strong {
+    color: #7d8cff;
+    font-size: 50px;
+}
+
+.request-div>strong>small,
+.satisfaction-div>strong>small {
+    color: white;
+    font-size: 20px;
+}
+
+.answer-text-div {
+    width: 45%;
+}
+
+.answer-text-div>small {
+    color: #7d8cff;
+}
+
+.answer-text-div>h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.answer-text-div>h1>b {
+    font-weight: 600;
+}
+
+.answer-text-div>p {
+    color: #666666;
+    font-size: 15px;
+    padding: 5% 0;
+}
+
+.answer-text-div>a {
+    padding: 5% 0;
+    color: #0e0a47;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.team {
+    background-color: #0e0a47;
+    padding: 10%;
+}
+
+.team-circle-div{
+    width: 30%;
+}
+
+.team-circle-div>img{
+    max-width: 100%;
+}
+
+.sub-circle{
+    width: 60px;
+    border-radius: 50%;
 }
