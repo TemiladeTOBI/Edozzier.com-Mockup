@@ -532,17 +532,258 @@ nav>ul>li>a {
 .team {
     background-color: #0e0a47;
     padding: 10%;
+    display: flex;
 }
 
-.team-circle-div{
+.team-circle-div {
     width: 30%;
 }
 
-.team-circle-div>img{
+.team-circle-div>img {
     max-width: 100%;
 }
 
-.sub-circle{
+.sub-circle {
     width: 60px;
     border-radius: 50%;
+}
+
+.team-text-div {
+    color: white;
+    width: 70%;
+    padding: 5%;
+}
+
+.team-text-div>small {
+    font-size: 14px;
+}
+
+.team-text-div>h1 {
+    font-size: 45px;
+    font-weight: 100;
+    padding-right: 10%;
+}
+
+.team-text-div>h1>b {
+    font-weight: 600;
+}
+
+.team-text-div>p {
+    padding: 5% 0;
+    font-weight: 7px;
+}
+
+.team-text-div>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+    width: 75%;
+}
+
+.team-text-div>div>img {
+    max-width: 100%;
+    padding: 10%;
+    background-color: white;
+    filter: opacity(0.5);
+    transition: 1s;
+}
+
+.team-text-div>div>img:hover {
+    transition: 1s;
+    filter: opacity(1);
+    transform: translate(0, -5px);
+    /* animation: companylogos 1s  0s none; */
+}
+
+.save {
+    padding: 10%;
+    display: flex;
+    text-align: left;
+    /* align-items: center; */
+    gap: 5%;
+}
+
+.save-img-div {
+    display: inline-block;
+    width: 50%;
+}
+
+.save-text-div>small {
+    color: #7D8CFF;
+    font-size: 15px;
+}
+
+.save-text-div>h1 {
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 3.5%;
+}
+
+.save-text-div>p {
+    color: #3f4b4b;
+    line-height: 150%;
+    font-size: 14px;
+}
+
+.save-text-div>a {
+    background-color: #0e0a47;
+    padding: 2%;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 5% 0;
+}
+
+footer {
+    display: flex;
+    gap: 5%;
+    padding: 10%;
+    padding-bottom: 0;
+    background-color: #f6f9fc;
+}
+
+.contact-div {
+    color: white;
+    background-color: #0e0a47;
+    padding: 2.5%;
+    width: 40%;
+}
+
+.contact-div>h3 {
+    padding: 5% 0;
+    font-weight: 100;
+}
+
+.phone-contacts,
+.mail-contact {
+    display: flex;
+    gap: 2.5%;
+    padding: 2.5% 0;
+}
+
+.phone-contacts>img {
+    color: white;
+}
+
+.phone-contacts>ul {
+    list-style-type: none;
+}
+
+.contact-link {
+    color: #ffb000;
+    text-decoration: none;
+}
+
+.contact-div>strong,
+.contact-div>small {
+    display: block;
+    padding-bottom: 5%;
+}
+
+.contact-div>strong {
+    font-weight: 100;
+}
+
+.contact-div>small {
+    font-size: 15px;
+}
+
+.enter-email-div {
+    /* padding: 5% 0; */
+    margin: 5% 0;
+    display: flex;
+    align-items: center;
+    background-color: #2d3244;
+    width: max-content;
+    height: max-content;
+    border-radius: 5px;
+}
+
+.enter-email-div>input {
+    background-color: #2d3244;
+    color: white;
+    border: none;
+    height: 60px;
+    padding: 0 5%;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.enter-email-div>img {
+    background-color: #555a69;
+    border-radius: 5px;
+    height: 60px;
+    padding: 7.5%;
+    color: white;
+    display: inline-block;
+}
+
+.address-links {
+    display: flex;
+    gap: 5%;
+    padding-bottom: 10%;
+    border-bottom: 1px solid #d0d8fc;
+}
+
+.address-div {
+    width: 60%;
+}
+
+.address-div>h3 {
+    font-weight: 100;
+    padding: 5% 0;
+}
+
+.address-div>h4 {
+    padding: 2.5% 0;
+}
+
+.address-links-icons {
+    display: flex;
+    gap: 5%;
+    padding-bottom: 10%;
+}
+
+.address-links-icons>img {
+    color: #a9acaf;
+    max-width: 40%;
+    display: inline-block;
+}
+
+.address-subdiv {
+    display: flex;
+    gap: 5%;
+}
+
+.address-subdiv>img {
+    display: inline-block;
+}
+
+.address-subdiv>span {
+    display: inline-block;
+    padding: 2.5% 0;
+}
+
+.quick-links-div>h3 {
+    font-weight: 100;
+    padding: 25% 0;
+}
+
+.quick-links-subdiv {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.copyright {
+    padding: 5%;
+}
+
+.copyright>p {
+    font-size: 12px;
+    color: #485353;
 }
